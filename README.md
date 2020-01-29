@@ -1,2 +1,2 @@
 # DevFront
-initiation au devront
+initiation au devfront
