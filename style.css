@@ -2,15 +2,7 @@ body{
     background-color: blanchedalmond;
 }
 
-#effets div{
-    background: red;
-    width: 30px;
-    height: 40px;
-    margin: 2px;
-    float: left;
-}
-
-#tests div{
+#effets div, #tests div, #animate div{
     background: red;
     height: 100px;
     margin: 2px;

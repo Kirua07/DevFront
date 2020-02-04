@@ -24,4 +24,13 @@ $('#box3').click(function(){
   $(this).css('background-color','blue')
   $(this).slideUp(4000);
 });
+
+  $('#animate div').click(function(){
+      $(this).animate({
+        "left":"300px"
+      }, 3000);
+      $(this).animate({
+        "widht":"1000px"
+      }, 4000);
+  });
 });
