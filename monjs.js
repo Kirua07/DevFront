@@ -49,5 +49,19 @@ $('#box3').click(function(){
   $('#moins').click(function(){
     $('li:last').remove()
     i--;
-  })
+  });
+
+  // agrandir ou diminuer la police
+  $('boutton.taille').click(function(){
+    var os = $('#toogle p').css('font-siaz');
+    var number = parseFloat(os);
+    var uom = os.slice(-2);
+    if (this.id=='pluspetit') {
+      number /= 1.4;
+    }else{
+      number *= 1.4;
+    }
+    console.log(number);
+  });
+
 });
