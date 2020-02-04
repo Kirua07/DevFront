@@ -13,7 +13,12 @@ $("#effets div").click(function(){
   });
 });
 $('#box1').click(function(){
-  $(this).hide();
+  $(this).hide(4000);
 });
-
+$('#box2').click(function(){
+  $(this).fadeOut(2000);
+});
+$('#box3').click(function(){
+  $(this).slideUp(4000);
+});
 });
