@@ -13,12 +13,15 @@ $("#effets div").click(function(){
   });
 });
 $('#box1').click(function(){
+  $(this).css('background-color','pink')
   $(this).hide(4000);
 });
 $('#box2').click(function(){
+  $(this).css('background-color','purple')
   $(this).fadeOut(2000);
 });
 $('#box3').click(function(){
+  $(this).css('background-color','blue')
   $(this).slideUp(4000);
 });
 });
