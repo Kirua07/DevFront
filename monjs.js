@@ -39,7 +39,7 @@ $('#box3').click(function(){
     $('li').removeClass();
   });
 
-  var i= $('li').size() + 1;
+  var i= $('li').length + 1;
   alert(i);
 
 });
