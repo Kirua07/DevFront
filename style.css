@@ -7,3 +7,7 @@ body{
     height: 100px;
     margin: 2px;
 }
+
+.alerte{
+    color: red;
+}

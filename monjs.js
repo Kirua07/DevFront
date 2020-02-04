@@ -33,4 +33,6 @@ $('#box3').click(function(){
         "widht":"1000px"
       }, 4000);
   });
+
+  $('li').addClass('alerte');
 });
