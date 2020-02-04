@@ -9,3 +9,9 @@ body{
     margin: 2px;
     float: left;
 }
+
+#tests div{
+    background: red;
+    height: 100px;
+    margin: 2px;
+}

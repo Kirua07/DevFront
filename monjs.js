@@ -9,7 +9,11 @@ $('#show').click(function(){
 });
 $("#effets div").click(function(){
   $( this ).hide(2000, function(){
-    
+
   });
 });
+$('#box1').click(function(){
+  $(this).hide();
+});
+
 });
