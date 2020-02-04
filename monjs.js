@@ -40,6 +40,9 @@ $('#box3').click(function(){
   });
 
   var i= $('li').length + 1;
-  alert(i);
-
+  //alert(i);
+  $('#plus').click(function(){
+    $('<li>ligne ' + i + '</li>').appendTo('ul');
+    i++;
+  });
 });
