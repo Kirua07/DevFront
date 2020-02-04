@@ -62,7 +62,7 @@ $('#box3').click(function(){
       number *= 1.4;
     }
     console.log(number);
-    $('1toggle p').css('font-size', nomber + uom);
+    $('#toggle p').css('font-size', nomber + uom);
   });
 
 });
