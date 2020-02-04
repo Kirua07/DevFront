@@ -45,8 +45,9 @@ $('#box3').click(function(){
     $('<li>ligne ' + i + '</li>').appendTo('ul');
     i++;
   });
+
   $('#moins').click(function(){
-    $('li:cast').remove()
+    $('li:last').remove()
     i--;
   })
 });
