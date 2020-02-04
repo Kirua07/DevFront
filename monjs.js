@@ -36,6 +36,6 @@ $('#box3').click(function(){
 
   $('li').addClass('alerte');
   $('#no-alerte').click(function(){
-    $('li a').removeClass();
+    $('li').removeClass();
   });
 });
