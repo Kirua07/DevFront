@@ -38,4 +38,8 @@ $('#box3').click(function(){
   $('#no-alerte').click(function(){
     $('li').removeClass();
   });
+
+  var i= $('li').size() + 1;
+  alert(i);
+
 });
