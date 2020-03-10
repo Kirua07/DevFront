@@ -22,6 +22,15 @@ body{
         box-sizing: border-box;
     }
 }
+#maboite{
+    background-color: white;
+    &>*{
+        background-color: #ccc;
+        margin: 5px; 
+        padding: 5px;
+    }
+
+}
 
 @media (min-width: $tablet) AND (max-width: $tablet-max){
     body{
