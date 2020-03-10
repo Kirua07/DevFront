@@ -6,19 +6,44 @@ $desktop: 992px;
 body{
     background-color: red;
 }
+
 .tablet{
     display: none;
 }
-@media (min-width: $tablet) /*AND (max-width: $tablet-max)*/{
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    article{
+        width: 100%;
+        background: white;
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: $tablet) AND (max-width: $tablet-max){
     body{
         background-color: yellow;
     }
     .tablet{
         display: block;
     }
+    .box{
+        article{
+            width: calc(50% - 10px);
+        }
+    }
 }
-/*@media (min-width: $desktop){
+
+@media (min-width: $desktop){
     body{
         background-color: blue;
     }
-} */
+    .box{
+        article{
+            width: calc(33.3333% - 10px);
+        }
+    }
+} 
