@@ -7,7 +7,7 @@ body{
     background-color: red;
 }
 
-@media (min-width: $tablet) AND (max-width: $tablet-max){
+@media (min-width: $tablet) /*AND (max-width: $tablet-max)*/{
     body{
         background-color: yellow;
     }
