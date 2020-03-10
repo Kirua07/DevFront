@@ -1,2 +1,2 @@
-body{background-color:blue}.tablet{display:none}@media (min-width: 768px){body{background-color:yellow}.tablet{display:block}}@media (min-width: 992px){body{background-color:blue}}
+body{background-color:red}.tablet{display:none}@media (min-width: 768px){body{background-color:yellow}.tablet{display:block}}@media (min-width: 992px){body{background-color:blue}}
 /*# sourceMappingURL=responsive.css.map */
