@@ -1,0 +1,18 @@
+body h1 {
+  color: red; }
+  body h1:hover {
+    color: blue; }
+
+.alert {
+  background-color: rgba(255, 0, 0, 0.5); }
+
+.message-error, .message-warning, .message-info {
+  font-weight: bold; }
+
+.message-error {
+  color: red; }
+.message-warning {
+  color: orange; }
+.message-info {
+  color: blue; }
+/*# sourceMappingURL=style.css.map */
