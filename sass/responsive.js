@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $('div').hide(4000);
+    //$('div').hide(4000);
 }
 )

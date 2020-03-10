@@ -6,14 +6,19 @@ $desktop: 992px;
 body{
     background-color: red;
 }
-
-@media (min-width: $tablet) AND (max-width: $tablet-max){
+.tablet{
+    display: none;
+}
+@media (min-width: $tablet) /*AND (max-width: $tablet-max)*/{
     body{
         background-color: yellow;
     }
+    .tablet{
+        display: block;
+    }
 }
-/*@media (min-width: $desktop){
+@media (min-width: $desktop){
     body{
         background-color: blue;
     }
-}*/
+}
