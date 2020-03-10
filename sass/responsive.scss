@@ -1,6 +1,19 @@
+$mobil-max: 767px;
+$tablet: 768px;
+$tablet-max: 991px;
+$desktop: 992px;
+
 body{
     background-color: red;
-    a{
-        color: purple;
+}
+
+@media (min-width: $tablet) AND (max-width: $tablet-max){
+    body{
+        background-color: yellow;
     }
 }
+/*@media (min-width: $desktop){
+    body{
+        background-color: blue;
+    }
+}*/
